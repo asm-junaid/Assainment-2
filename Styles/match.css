@@ -231,6 +231,12 @@ responsiv design for mobile
     .matches{
         padding: 10px 0 10px 0;
     }
+    .view-more{
+        visibility: hidden;
+    }
+    .extra{
+        visibility: hidden;
+    }
 
     /*----------- 
     footer design

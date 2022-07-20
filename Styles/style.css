@@ -149,6 +149,9 @@ blog design
 .view-more{
     visibility: hidden
 }
+.extra{
+    visibility: hidden
+}
 
 /*-----------
 footer design
@@ -251,6 +254,12 @@ responsiv design for mobile
     }
     .images img{
         width: 100%;
+    }
+    .view-more{
+        visibility: hidden
+    }
+    .extra{
+        visibility: hidden
     }
     
 
