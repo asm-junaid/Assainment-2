@@ -100,6 +100,11 @@ match info design
 }
 .images{
     display: flex;
+    align-items: center;
+}
+.images h2{
+    margin: 0 5px 0 5px;
+
 }
 .match-info{
     text-align: center;
@@ -188,4 +193,38 @@ responsiv design for mobile
         width: fit-content;
         padding: 15px 80px;
     }
+
+    /*-----------
+    match details
+    -----------*/
+
+    .all-matches{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+    .matches{
+        padding: 10px 0 10px 0;
+    }
+
+    /*----------- 
+    footer design
+    -----------*/
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .links a{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    
 }
