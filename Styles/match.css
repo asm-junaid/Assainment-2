@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------
+ banner design  
+------------*/
+
+
+.website-banner{
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 30px 30px 0 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.banner-text h1{
+    margin-bottom: 20px;
+    font-size: 65px;
+    color: white;
+}
+.banner-text p{
+    color: white;
+}
+.banner-text button{
+    height: 56px;
+    width: 170px;
+    border-radius: 8px;
+    background-color: #DD0000;
+    color: white;
+}
+.banner-image img{
+    height: 500px;
+    width: 500px;
+}
+
+/*----------
+sidemenu design  
+----------*/
+
+
+.sidemenu-blogs{
+    display: flex;
+    margin-top: 100px;
+}
+.sidemenu{
+    height: fit-content;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+.button{
+    width: 100%;
+    padding: 15px 1px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.selected{
+    color: white;
+    background-color: #DD0000;
+}
+
+/*---------------
+match info design
+---------------*/
+
+.all-matches{
+    margin: 0 0 100px 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.matches{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+}
+.match-info{
+    text-align: center;
+}
+.match-info h1{
+    font-size: 25px;
+}
+
+
+/*-----------
+footer design
+-----------*/
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 0 0;
+    background-color: black;
+}
+.tittle{
+    margin: 80px 0 0 0;
+}
+.tittle h1{
+    color: white;
+}
+hr{
+    width: 90%;
+    margin: 50px 0 80px 0;
+}
+.links{
+    margin-bottom: 100px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
